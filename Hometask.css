@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+header{
+    background:#140099;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:15px;
+}
+
+nav a:hover{
+    color:rgb(223, 37, 43);
+}
+
+.search{
+    margin-top:15px;
+}
+
+.search input{
+    padding:8px;
+    width:180px;
+}
+
+.search button{
+    padding:8px 15px;
+}
+
+.banner{
+    text-align:center;
+    background:#cc3359;
+    color:white;
+    padding:50px;
+}
+
+.banner p{
+    width:70%;
+    margin:20px auto;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    background:#009921;
+    color:white;
+}
+
+button:hover{
+    background:#530066;
+}
+
+.programs{
+    text-align:center;
+    padding:40px;
+}
+
+.box{
+    display:inline-block;
+    width:250px;
+    background:white;
+    border:1px solid rgb(92, 13, 121);
+    padding:20px;
+    margin:15px;
+}
+
+.box:hover{
+    background:#0a7896;
+}
+
+.achievement{
+    text-align:center;
+    background:rgb(255, 255, 255);
+    padding:40px;
+}
+
+.item{
+    display:inline-block;
+    width:180px;
+    border:1px solid gray;
+    margin:15px;
+    padding:20px;
+}
+
+.notice{
+    padding:40px;
+    text-align:center;
+}
+
+.notice ul{
+    display:inline-block;
+    text-align:left;
+    margin-top:20px;
+}
+
+.notice li{
+    margin:10px;
+}
+
+.gallery{
+    text-align:center;
+    padding:40px;
+}
+
+.gallery img{
+    margin:10px;
+    border:2px solid gray;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+.contact{
+    text-align:center;
+    padding:40px;
+}
+
+.contact input,
+.contact textarea{
+    width:300px;
+    padding:10px;
+}
+
+.contact button{
+    margin-top:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+footer p{
+    margin-top:8px;
+}
